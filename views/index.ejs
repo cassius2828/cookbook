@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home Page</title>
-</head>
+<%- include('./partials/meta.ejs') %>
 <body>
   <% if (user) { %>
     <h1>Welcome to the app, <%= user.username %>!</h1>

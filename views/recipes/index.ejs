@@ -1,0 +1,28 @@
+<%- include('../partials/meta.ejs') %>
+<%- include('../partials/_nav.ejs') %>
+<body>
+  <h1>Show All Recipes</h1>
+  <div class="recipes-container">
+    <% for (let i = 1; i <= 10; i++) { %>
+        <a style="color: transparent;" href="/recipes/:recipeId">
+              <div class="card">
+            <h2>Name: Chocolate Cake</h2>
+            <p>Instructions: Preheat oven to 350°F. Mix flour, sugar, cocoa powder, baking soda, and salt in a large mixing bowl.</p>
+            <p>Owner: John Doe</p>
+            <p>Ingredients:</p>
+            <ul>
+                <li>1 3/4 cups all-purpose flour</li>
+                <li>2 cups granulated sugar</li>
+                <li>3/4 cup unsweetened cocoa powder</li>
+                <li>2 teaspoons baking soda</li>
+                <li>1 teaspoon salt</li>
+                <!-- Add more ingredients as needed -->
+            </ul>
+        </div>  
+        </a>
+    
+        
+    <% } %>
+  </div>
+</body>
+</html>

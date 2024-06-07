@@ -1,0 +1,26 @@
+// ///////////////////////////
+// User Goals
+// ///////////////////////////
+
+1. Account Management:
+   - Sign up for an account.
+   - Sign in to access the personal user profile and manage recipes.
+
+2. Navigation:
+   - Easily navigate through the site, whether signed in or not.
+   - Quickly access options to sign up, sign in, view recipes, or sign out based on current status.
+
+3. Recipe Management:
+   - View all personal recipes on a dedicated page for easy management and review.
+   - See full details of each created recipe.
+   - Easily find and click on an 'Add New Recipe' link to access the recipe form.
+   - Submit the recipe form and receive confirmation that the recipe has been saved.
+   - Edit and delete recipes in the collection for full data management.
+
+4. Ingredient Management:
+   - Add new ingredients to the recipe manager to track ingredients used across various recipes.
+   - Quickly add new ingredients not already listed when creating a new recipe.
+
+5. Community Engagement:
+   - View a list of all other app users to foster a sense of community.
+   - Click on another user's profile to view all the recipes they have created, exchange ideas, and find inspiration.

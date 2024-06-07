@@ -1,0 +1,14 @@
+<nav>
+    <h1>Chef Harden's H-Town Grubdown</h1>
+    <ul>
+      <% if (user) { %>
+        <li><a href="/recipes">view recipes</a></li>
+        <li><a href="/recipes/new">create recipe</a></li>
+        <li><a href="/auth/sign-out">sign out</a></li>
+      <% } else { %>
+        <li><a href="/auth/sign-up">sign up</a></li>
+        <li><a href="/auth/sign-in">sign in</a></li>
+      <% } %>
+    </ul>
+  </nav>
+  
